@@ -1,0 +1,17 @@
+{
+    "name": "gitbook-plugin-toggle-sidebar-url",
+    "version": "0.0.1",
+    "description": "gitbook plugin toggle sidebar by url",
+    "engines": {
+        "honkit": ">1.x.x"
+    },
+    "honkit": {
+        "properties": {
+            "myConfigKey": {
+                "type": "string",
+                "default": "it's the default value",
+                "description": "It defines my awesome config!"
+            }
+        }
+    }
+}
